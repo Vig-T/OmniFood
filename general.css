@@ -1,5 +1,5 @@
 /*
---- 01 TYPOGRAPHY SYSTEM
+--- 01 Typography System
 - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 - Font weights
@@ -58,6 +58,9 @@ body {
 /* Utility Classes */
 .mg-right-sm {
 	margin-right: 1.6rem !important;
+}
+.mg-bottom-med{
+	margin-bottom: 4.8rem !important;
 }
 
 .heading-primary,.heading-secondary,.heading-tertiary{
@@ -129,6 +132,9 @@ body {
 	display: grid;
 	column-gap: 6rem;
 	row-gap: 9.6rem; 
+}
+.grid:not(:last-child){
+	margin-bottom: 9.6rem;
 }
 .grid--two-cols {
 	grid-template-columns: repeat(2,1fr);
